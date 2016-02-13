@@ -225,8 +225,13 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "plugins"
-    },
+    "plugins",
+    "lock_tag"
+    "lock_link",
+    "lock_eng",
+    "lock_badword",
+    "filtering",
+    }
     sudo_users = {119989724,187769689,118682430},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
